@@ -1,10 +1,12 @@
+<html>
 <head>
   <link rel="stylesheet" href="index.css">
   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <script src="https://unpkg.com/@mojs/core"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
-<body class="ripples">
+<body>
   <div id="loading">
     <div class="spinner">
       <div class="bounce1"></div>
@@ -12,12 +14,12 @@
       <div class="bounce3"></div>
     </div>
   </div>
-  
+  <nav>
   <div class="gallery">
     <header class="pc">
       <ul class="nav-list">
         <li class="logo">
-          <img src="img/logo.png" alt="" >
+            <img src="img/logo.png" alt="" >
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">TOP</a>
@@ -54,13 +56,45 @@
               </li>
             </ul>
             <div class="mb mb-logo">
-              <img src="img/logo.png" alt="" >
+              <a href="/">
+                <img src="img/logo.png" alt="" >
+              </a>
             </div>
         </div>
       </div>
     </header>
+    </div>
+  </nav>
     <div class="title-wrap">
       <h1 class="title">SAMPLE</h1>
+    </div>
+
+    <div id="about">
+      <h2>About</h2>
+      <p>trsのテストサイト</p>
+      <p>そのうち何かしらまとめるかもーね</p>
+    </div>
+
+    <div id="work">
+      <h2>WORK</h2>
+      <ul class="link-list">
+        <li>
+          <a href="https://www.youtube.com/channel/UCoEbchyYNBK4lZC8758YSrA">
+            <img src="img/youtube.png" class="youtube"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://trslog.com/">
+            <img src="img/trslog.png" class="blog"/>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/trs1141">
+            <img src="img/twitter.png" class="twitter"/>
+          </a>
+
+        </li>
+      </ul>
     </div>
     <script type="text/javascript" src="js/cursor.js"></script>
     <script type="text/javascript" src="js/load.js"></script>
@@ -69,5 +103,5 @@
     <script type="text/javascript" src="js/txt-animation.js"></script> 
   </div>
 </body>
-	
+</html>
  

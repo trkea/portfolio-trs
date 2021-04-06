@@ -1,6 +1,6 @@
-$(".ripples").ripples();
 
-$(".ripples").ripples({
+
+$(".title-wrap").ripples({
 	dropRadius: 20,
 	perturbance: 0.03,
 	resolution: 256,

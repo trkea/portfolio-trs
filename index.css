@@ -29,7 +29,7 @@ z-index: 9999;
 }
 
 .spinner {
-  margin: 350px auto 0;
+  margin: 20rem auto 0;
   width: 380px;
   text-align: center;
 }
@@ -91,11 +91,6 @@ body {
 position: relative;
 }
 
-
-body, html {
-  background: linear-gradient(to bottom, #85daff 0%, #002e42 100%);
-}
-
 /* クリックできる要素 */
 .ripple {
   /* 必須 */
@@ -110,37 +105,46 @@ body, html {
 }
 
   .title-wrap{
-    padding     : 2rem;
+    height: 100%;
+    background: linear-gradient(to bottom, #85daff 0%, #002e42 100%);
   }
 
   .title{
     display: block;
     opacity:0;
-    margin: 8% 0;
     font-weight: bold;
     text-align: center;
-    font-size: 22rem;
+    font-size: 10rem;
     color       : #ffffff;
     text-shadow:  2px  2px 10px rgb(77, 77, 77) ,
                  -2px  2px 10px rgb(70, 70, 70) ,
                   2px -2px 10px rgb(78, 78, 78) ,
                  -2px -2px 10px rgb(77, 76, 76);
+    padding-top: 20rem;
+    margin: 0;
   }
   /***
   ナビリスト
   ***/
+  nav {
+    background-color: rgb(255, 255, 255, 0.2);
+    opacity: 70;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+  }
   .nav-list {
     list-style: none;
     overflow: hidden;
     display:flex;
     padding-left:0;
-    margin-top: 18px;
+    padding-top: 5px;
   }
    
   .nav-list li {
-    width: 140rem;
     text-align: center;
     float: left;
+    width: 20%;
   }
    
   .nav-list a {
@@ -155,12 +159,16 @@ body, html {
     opacity: 0.5
   }
 
+  .nav-list img:hover {
+    opacity: 0.5
+  }
+
   .navlist .logo {
     padding-top: -5px;
   }
 
   .nav-list .logo > img {
-    width: 40%;
+    width: 135px;
     margin-top: -10px;
   }
 
@@ -274,4 +282,75 @@ body, html {
 
 .menu-content a:hover {
   opacity: 0.5
+}
+
+/***
+About
+***/
+#about {
+  padding: 2rem;
+  text-align: center;
+  background-color: #0e2129;
+  padding-bottom: 5rem;
+}
+
+#about > h2 {
+  font-size: 90px;
+  text-shadow: 1px 1px 0px #858585, 2px 2px 0px #858585, 3px 3px 0px #858585, 4px 4px 0px #858585, 5px 5px 0px #858585;
+  font-weight: bold;
+  color: white;
+}
+
+#about > p {
+  font-size: 30px;
+  color: white;
+}
+
+/***
+Work
+***/
+#work {
+  padding: 2rem;
+  text-align: center;
+  background-image: url("img/shinkai.jpg");
+  background-size: cover;
+}
+
+#work > h2 {
+  font-size: 90px;
+  text-shadow: 1px 1px 0px #858585, 2px 2px 0px #858585, 3px 3px 0px #858585, 4px 4px 0px #858585, 5px 5px 0px #858585;
+  font-weight: bold;
+  color: white;
+}
+
+#work > p {
+  font-size: 30px;
+  color: white;
+}
+
+.link-list {
+  list-style: none;
+  overflow: hidden;
+  display:flex;
+}
+
+.link-list > li {
+  width: 20%;
+}
+
+.youtube {
+  width: 70%;
+}
+
+.blog {
+  width: 60%;
+}
+
+.twitter{
+  width: 70%;
+}
+
+
+.link-list img:hover {
+  opacity: 0.5;
 }

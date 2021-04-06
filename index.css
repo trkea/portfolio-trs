@@ -288,10 +288,9 @@ position: relative;
 About
 ***/
 #about {
-  padding: 2rem;
   text-align: center;
   background-color: #0e2129;
-  padding-bottom: 5rem;
+  height: 100%;
 }
 
 #about > h2 {
@@ -299,6 +298,8 @@ About
   text-shadow: 1px 1px 0px #858585, 2px 2px 0px #858585, 3px 3px 0px #858585, 4px 4px 0px #858585, 5px 5px 0px #858585;
   font-weight: bold;
   color: white;
+  padding-top: 180px;
+  margin-top: 0;
 }
 
 #about > p {
@@ -314,6 +315,7 @@ Work
   text-align: center;
   background-image: url("img/shinkai.jpg");
   background-size: cover;
+  height: 100%;
 }
 
 #work > h2 {
@@ -321,6 +323,7 @@ Work
   text-shadow: 1px 1px 0px #858585, 2px 2px 0px #858585, 3px 3px 0px #858585, 4px 4px 0px #858585, 5px 5px 0px #858585;
   font-weight: bold;
   color: white;
+  padding-top: 180px;
 }
 
 #work > p {
